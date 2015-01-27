@@ -15,6 +15,7 @@ mPullToRefreshStaggeredGridView.setOnScrollListener(this);（this 是activity �
 重写onScroll方法
 
  @Override
+ 
     public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
         boolean lastItemVisible = (totalItemCount > 0) && (firstVisibleItem+ visibleItemCount >= totalItemCount - 1);
         if (lastItemVisible) {
