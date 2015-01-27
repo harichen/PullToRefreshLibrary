@@ -29,7 +29,9 @@ mPullToRefreshStaggeredGridView.setOnScrollListener(this);（this 是activity �
     }
 
 下拉刷新效果：
+
 ![下拉刷新](http://g.recordit.co/QEM5g5fezd.gif)
 
 滑到底部自动加载效果：
+
 ![滑到底部自动加载更多](http://g.recordit.co/SWZGTCPiEP.gif)
