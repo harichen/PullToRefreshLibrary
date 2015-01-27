@@ -7,6 +7,7 @@
 #使用须知
 1. 默认方式是上拉加载更多
 2. 滑动到底部自动加载只需简单的两步：
+
 设置滑动监听
 
 mPullToRefreshStaggeredGridView.setOnScrollListener(this);（this 是activity 或 fragment）
@@ -15,15 +16,8 @@ mPullToRefreshStaggeredGridView.setOnScrollListener(this);（this 是activity �
 
  @Override
     public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
-    
-        boolean lastItemVisible = (totalItemCount > 0) && (firstVisibleItem +
-        
-                visibleItemCount >= totalItemCount - 1);
-                
+        boolean lastItemVisible = (totalItemCount > 0) && (firstVisibleItem+ visibleItemCount >= totalItemCount - 1);
         if (lastItemVisible) {
-        
             mPullToRefreshStaggeredGridView.setPullUpToRefreshing(mPullToRefreshStaggeredGridView);
-            
         }
-        
     }
