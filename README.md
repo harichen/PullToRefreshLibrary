@@ -1,8 +1,11 @@
 # PullToRefreshLibrary
 支持瀑布流的下拉刷新和滑到底部加载更多
 =
-基于com.handmark.pulltorefresh 和 com.etsy.android.grid.StaggeredGridView 完美实现了上拉加载更多或滑动到底部自动加载两种方式。
-该库引用了https://github.com/etsy/AndroidStaggeredGrid/tree/master/library 请自行下载导入。
+基于com.handmark.pulltorefresh和com.etsy.android.grid.StaggeredGridView 完美实现上拉加载更多或滑动到底部自动加载更多两种方式。
+
+该库引用了https://github.com/etsy/AndroidStaggeredGrid/tree/master/library 库
+
+没有上传，请自行下载导入。
 
 #使用须知
 1. 默认方式是上拉加载更多
