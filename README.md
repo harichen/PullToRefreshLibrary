@@ -16,9 +16,10 @@ mPullToRefreshStaggeredGridView.setOnScrollListener(this);（this 是activity �
 
  @Override
  
-    public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
-        boolean lastItemVisible = (totalItemCount > 0) && (firstVisibleItem 
-        + visibleItemCount >= totalItemCount - 1);
+    public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) 
+    {
+        boolean lastItemVisible = (totalItemCount > 0) && 
+        (firstVisibleItem + visibleItemCount >= totalItemCount - 1);
         if (lastItemVisible) {
             mPullToRefreshStaggeredGridView.setPullUpToRefreshing(mPullToRefreshStaggeredGridView);
         }
