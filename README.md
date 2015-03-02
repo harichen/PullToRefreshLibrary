@@ -5,10 +5,6 @@
 
 功能：下拉刷新；上拉加载更多（或滑动到底部自动加载，可自行选择调用）。
 
-该库引用了https://github.com/etsy/AndroidStaggeredGrid/tree/master/library 库
-
-没有上传，请自行下载导入。
-
 #使用须知
 1. 默认方式是上拉加载更多
 2. 滑动到底部自动加载只需简单的两步：
